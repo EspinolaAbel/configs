@@ -1,3 +1,29 @@
+" Mostrar tabs con longitud de 4 espacios
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
+
+" Mostrar caracteres no visibles con :list
+set listchars=tab:»»,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨,space:•
+
+" CaseInsensitive en búsquedas cuando todos los caracteres son minúsculas
+" CaseSensitive cuando hay por lo menos un caracter minúscula
+set ignorecase
+set smartcase
+
+" Mover la línea seleccionada un lugar hacía arriba
+nnoremap ^[[1;3A ddkkp
+vnoremap ^[[1;3A dkkp
+inoremap ^[[1;3A <ESC>ddkkpI
+" Mover la línea seleccionada un lugar hacía abajo
+nnoremap ^[[1;3B ddp
+vnoremap ^[[1;3B dp
+inoremap ^[[1;3B <ESC>ddpI
+
+" ejemplo de un mapeo de un macro para :IE
+"cnoremap IE normal! IInsertame esto con un comando<CR><ESC>
+
+" VIMSCRIPT
 function CamelCase()
         let current_line = getline(".")
         if strlen( current_line ) == 0
