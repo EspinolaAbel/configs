@@ -1,4 +1,4 @@
-" version 1.0
+" version 1.1
 " https://github.com/EspinolaAbel/configs/edit/master/.vimrc
 
 " Mostrar tabs con longitud de 4 espacios
@@ -28,6 +28,10 @@ inoremap [1;3B <ESC>ddpI
 
 " Mostrar todos los caracteres ocultos por defecto
 "set list
+
+" resaltado de sintaxis
+" .vrapper de eclipse
+autocmd BufNewFile,BufRead .vrapperrc set syntax=vim
 
 " VIMSCRIPT
 function CamelCase()
