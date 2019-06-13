@@ -1,3 +1,6 @@
+" version 1.0
+" https://github.com/EspinolaAbel/configs/edit/master/.vimrc
+
 " Mostrar tabs con longitud de 4 espacios
 set tabstop=4
 set softtabstop=0 noexpandtab
