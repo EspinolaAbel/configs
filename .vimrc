@@ -1,4 +1,4 @@
-" version 1.1
+" version 1.2
 " https://github.com/EspinolaAbel/configs/edit/master/.vimrc
 
 " Mostrar tabs con longitud de 4 espacios
@@ -10,9 +10,12 @@ set shiftwidth=4
 set listchars=tab:»»,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨,space:•
 
 " CaseInsensitive en búsquedas cuando todos los caracteres son minúsculas
-" CaseSensitive cuando hay por lo menos un caracter minúscula
+" CaseSensitive cuando hay por lo menos un caracter mayúscula
 set ignorecase
 set smartcase
+
+" Cambiar los colores de los caracteres cuando el color de fondo de la terminal es negro
+set background=dark
 
 " Mover la línea seleccionada un lugar hacía arriba
 nnoremap [1;3A ddkkp
@@ -32,6 +35,21 @@ inoremap [1;3B <ESC>ddpI
 " resaltado de sintaxis
 " .vrapper de eclipse
 autocmd BufNewFile,BufRead .vrapperrc set syntax=vim
+
+" activar autoindent
+set autoindent
+
+" permitir scroll horizontal :help scroll-horizontal
+"set nowrap
+
+"diccionarios
+set dictionary+=/usr/share/dict/american-english
+set dictionary+=/usr/share/dict/british-english
+set dictionary+=/usr/share/dict/spanish
+
+"********************************************************************************************************************************************
+"** VIMSCRIPT *******************************************************************************************************************************
+"********************************************************************************************************************************************
 
 " VIMSCRIPT
 function CamelCase()
