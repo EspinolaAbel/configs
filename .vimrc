@@ -28,6 +28,11 @@ inoremap [1;3A <ESC>ddkkpI
 nnoremap [1;3B ddp
 vnoremap [1;3B dp
 inoremap [1;3B <ESC>ddpI
+" Acumular palabras en el registro w
+nnoremap "w "wyiw:let @w='<C-R>w\n'<CR>
+nnoremap "W "Wyiw:let @w='<C-R>w\n'<CR>
+nnoremap "wp "wp:s/\\n/\r/g<CR>ddk^
+nnoremap "wP "wp:s/\\n/ /g<CR>^
 
 " ejemplo de un mapeo de un macro para :IE
 "cnoremap IE normal! IInsertame esto con un comando<CR><ESC>
