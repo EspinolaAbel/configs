@@ -1,4 +1,4 @@
-" version 1.2
+" version 1.3
 " https://github.com/EspinolaAbel/configs/edit/master/.vimrc
 
 " Mostrar tabs con longitud de 4 espacios
@@ -13,6 +13,9 @@ set listchars=tab:»»,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨,space
 " CaseSensitive cuando hay por lo menos un caracter mayúscula
 set ignorecase
 set smartcase
+
+" Busqueda incremental. Mueve el cursor a las palabras matcheadas a medida que voy tipeando
+set incsearch
 
 " Cambiar los colores de los caracteres cuando el color de fondo de la terminal es negro
 set background=dark
@@ -35,6 +38,7 @@ inoremap [1;3B <ESC>ddpI
 " resaltado de sintaxis
 " .vrapper de eclipse
 autocmd BufNewFile,BufRead .vrapperrc set syntax=vim
+autocmd BufNewFile,BufRead _vrapperrc set syntax=vim
 
 " activar autoindent
 set autoindent
