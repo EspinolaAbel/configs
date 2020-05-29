@@ -35,11 +35,6 @@ inoremap [1;3B <ESC>ddpI
 " Mostrar todos los caracteres ocultos por defecto
 "set list
 
-" resaltado de sintaxis
-" .vrapper de eclipse
-autocmd BufNewFile,BufRead .vrapperrc set syntax=vim
-autocmd BufNewFile,BufRead _vrapperrc set syntax=vim
-
 " activar autoindent
 set autoindent
 
@@ -50,6 +45,16 @@ set autoindent
 set dictionary+=/usr/share/dict/american-english
 set dictionary+=/usr/share/dict/british-english
 set dictionary+=/usr/share/dict/spanish
+
+"********************************************************************************************************************************************
+"** SOLO PARA VIMRC DE ECLIPSE **************************************************************************************************************
+"********************************************************************************************************************************************
+
+" resaltado de sintaxis
+" .vrapper de eclipse
+"autocmd BufNewFile,BufRead .vrapperrc set syntax=vim
+"autocmd BufNewFile,BufRead _vrapperrc set syntax=vim
+"nnoremap <C-0> <C-v>
 
 "********************************************************************************************************************************************
 "** VIMSCRIPT *******************************************************************************************************************************
