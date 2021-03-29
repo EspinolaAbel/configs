@@ -7,7 +7,7 @@
 /configuration/org.eclipse.epp.mpc.ui/showOpenFavoritesNotification=false
 /configuration/org.eclipse.equinox.p2.garbagecollector/gc_enabled=false
 /configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=C\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\crm\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\chubblatam-reportes\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\mit-api-monitor\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\wks_mitctapi\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\wallboard_generico\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\chubb-system6-client\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\wks_chubb-latam-api\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\webpad\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\crm-forms\nC\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\Colsanitas
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=
 /configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
 /configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
 /configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
@@ -656,7 +656,7 @@
 /instance/org.eclipse.ui.navigator/org.eclipse.ui.navigator.ProjectExplorer.filterActivation=\:org.eclipse.jdt.java.ui.filters.HidePackageDeclaration\:org.eclipse.rse.project.filters.RemoteSystemsProjects\:org.eclipse.jdt.java.ui.filters.HideOutputFolder\:org.eclipse.buildship.ui.navigator.filter.gradle.subProject\:org.eclipse.ui.navigator.resources.nested.HideTopLevelProjectIfNested\:org.eclipse.jdt.java.ui.filters.HideEmptyInnerPackages\:org.eclipse.jst.j2ee.navigator.ui.filters.jetemitters\:org.eclipse.jdt.java.ui.filters.HideInnerClassFiles\:org.eclipse.ui.navigator.resources.filters.startsWithDot\:org.eclipse.jdt.java.ui.filters.HideEmptyLibraryContainers\:org.eclipse.jdt.java.ui.filters.HideImportDeclaration\:org.eclipse.jdt.java.ui.filters.HideSyntheticMembers\:org.eclipse.mylyn.tasks.ui.navigator.filters.tasks\:org.eclipse.ui.navigator.resources.nested.HideFolderWhenProjectIsShownAsNested\:
 /instance/org.eclipse.ui.trace/tracingEnabled=false
 /instance/org.eclipse.ui.trace/tracingEntries=
-/instance/org.eclipse.ui.trace/tracingFilePath=C\:\\Users\\abel.espinola\\Proyectos\\Eclipse Workspaces\\crm\\.metadata\\trace.log
+/instance/org.eclipse.ui.trace/tracingFilePath=
 /instance/org.eclipse.ui.trace/tracingMaxFileCount=10
 /instance/org.eclipse.ui.trace/tracingMaxFileSize=1000
 /instance/org.eclipse.ui.trace/tracingOutputStandard=false
