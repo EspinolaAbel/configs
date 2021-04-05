@@ -1,5 +1,8 @@
-" version 1.3
+" version 1.4
 " https://github.com/EspinolaAbel/configs/edit/master/.vimrc
+
+" Mover el cursor con el mouse
+set mouse=a
 
 " Mostrar tabs con longitud de 4 espacios
 set tabstop=4
