@@ -4,6 +4,9 @@
 " Mover el cursor con el mouse
 set mouse=a
 
+" Muestra en la barra inferior el comando que se está tipeando en modo NORMAL
+set showcmd
+
 " Mostrar tabs con longitud de 4 espacios
 set tabstop=4
 set softtabstop=0 noexpandtab
